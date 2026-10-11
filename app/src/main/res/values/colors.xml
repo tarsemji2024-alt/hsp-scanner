@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#121317</color>
+    <color name="text">#E6E6E6</color>
+    <color name="text_dim">#99AAAA</color>
+    <color name="text_empty">#6B6F78</color>
+    <color name="brand">#D81B60</color>
+    <color name="accent">#3F8FD6</color>
+    <color name="accent_ring">#1C2A3A</color>
+    <color name="btn_grey">#3B4252</color>
+    <color name="btn_green">#2E7D32</color>
+    <color name="btn_red">#C62828</color>
+    <color name="table_head">#222329</color>
+    <color name="divider">#26272D</color>
+    <color name="msg_ok">#66BB6A</color>
+    <color name="msg_warn">#FFB74D</color>
+    <color name="msg_err">#EF5350</color>
+</resources>

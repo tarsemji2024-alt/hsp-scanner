@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HSP Scanner</string>
+
+    <!-- हेडर -->
+    <string name="brand">Mannat Communication Moonak</string>
+    <string name="owner_name">Tarsem ji</string>
+    <string name="owner_mobile">M: 9988863580</string>
+
+    <!-- बटन -->
+    <string name="btn_scan_start">📷&#160; स्कैन शुरू</string>
+    <string name="btn_scan_on">📷&#160; स्कैन चालू</string>
+    <string name="btn_export">फाइल एक्सपोर्ट</string>
+    <string name="btn_import">📂&#160; पुरानी फाइल इंपोर्ट</string>
+    <string name="btn_torch_on">🔦&#160; लाइट चालू</string>
+    <string name="btn_torch_off">🔦&#160; लाइट बंद</string>
+
+    <!-- टेबल -->
+    <string name="col_no">#</string>
+    <string name="col_rsn">RSN</string>
+    <string name="desc_delete">डिलीट</string>
+    <string name="desc_clear_all">सभी RSN डिलीट करें</string>
+    <string name="empty_list">कोई RSN डेटा उपलब्ध नहीं है। स्कैन शुरू करें।</string>
+
+    <!-- स्कैन -->
+    <string name="msg_scan_continuous">लगातार स्कैन चालू है। बंद करने के लिए स्कैनर में पीछे दबाएँ।</string>
+    <string name="msg_scan_stopped">स्कैन बंद किया (%1$d RSN लिस्ट में हैं)</string>
+    <string name="msg_scanner_error">स्कैनर एरर: %1$s</string>
+    <string name="msg_scanner_unknown">अज्ञात स्कैनर एरर</string>
+    <string name="msg_skipped">❌ छोड़ दिया (R से शुरू होने वाला RSN नहीं मिला)</string>
+    <string name="msg_exists">⚠️ पहले से मौजूद: %1$s</string>
+    <string name="msg_added">✅ जोड़ा गया: %1$s</string>
+
+    <!-- डिलीट -->
+    <string name="msg_deleted">डिलीट हो गया: %1$s</string>
+    <string name="msg_nothing_to_delete">डिलीट करने के लिए कोई RSN नहीं है।</string>
+    <string name="msg_all_deleted">✅ सभी RSN डिलीट हो गए।</string>
+
+    <!-- एक्सपोर्ट -->
+    <string name="msg_export_empty">एक्सपोर्ट के लिए कोई डेटा नहीं है।</string>
+    <string name="msg_export_done">✅ फाइल सेव हो गई। नई स्कैनिंग के लिए तैयार है।</string>
+    <string name="msg_export_cancel">सेव नहीं हुई या कैंसिल कर दी गई। लिस्ट सुरक्षित है।</string>
+    <string name="msg_save_window_fail">सेव विंडो नहीं खुल सकी</string>
+    <string name="msg_save_fail">फाइल सेव नहीं हो सकी</string>
+
+    <!-- इंपोर्ट -->
+    <string name="msg_import_picker_fail">फाइल चुनने की विंडो नहीं खुल सकी</string>
+    <string name="msg_import_read_fail">इंपोर्ट फाइल पढ़ नहीं सके</string>
+    <string name="msg_import_bad_file">फाइल पढ़ नहीं पाए। XLSX या CSV फाइल चुनें।</string>
+    <string name="msg_import_xls">पुरानी .xls फाइल समर्थित नहीं है। उसे Excel में .xlsx के रूप में सेव करके चुनें।</string>
+    <string name="msg_import_done">✅ इंपोर्ट पूरा: %1$d नए RSN जोड़े</string>
+    <string name="msg_import_dups">, %1$d डुप्लिकेट छोड़े</string>
+    <string name="msg_import_invalid">, %1$d पंक्तियाँ छोड़ीं</string>
+
+    <!-- लाइट -->
+    <string name="msg_torch_on">लाइट चालू है।</string>
+    <string name="msg_torch_off">लाइट बंद है।</string>
+    <string name="msg_torch_auto_on">कम रोशनी में लाइट अपने आप चालू हुई।</string>
+    <string name="msg_torch_auto_off">रोशनी पर्याप्त है; लाइट बंद हुई।</string>
+    <string name="msg_no_flash">इस डिवाइस में फ्लैश उपलब्ध नहीं है।</string>
+    <string name="msg_torch_busy">लाइट कैमरा स्कैनर के उपयोग में होने के कारण नहीं बदली जा सकी।</string>
+</resources>
