@@ -34,14 +34,18 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:maxLines="1"
             android:text="@string/owner_name"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
 
         <FrameLayout
             android:layout_width="102dp"
@@ -59,15 +63,18 @@
                 android:src="@drawable/profile" />
         </FrameLayout>
 
-        <TextView
+        <Space
             android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="end"
             android:maxLines="1"
             android:text="@string/owner_mobile"
             android:textColor="#FFFFFF"
-            android:textSize="17sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -91,7 +98,7 @@
             android:text="@string/btn_scan_start"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
         <Button
@@ -102,16 +109,16 @@
             android:layout_weight="1"
             android:background="@drawable/bg_btn_green"
             android:drawableStart="@drawable/ic_download"
-            android:drawablePadding="8dp"
-            android:paddingStart="12dp"
+            android:drawablePadding="6dp"
+            android:paddingStart="10dp"
             android:paddingTop="26dp"
-            android:paddingEnd="12dp"
+            android:paddingEnd="10dp"
             android:paddingBottom="26dp"
             android:stateListAnimator="@null"
             android:text="@string/btn_export"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="17sp"
             android:textStyle="bold" />
     </LinearLayout>
 
